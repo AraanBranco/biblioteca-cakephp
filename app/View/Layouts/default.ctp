@@ -16,10 +16,10 @@
  * @license       MIT License (http://www.opensource.org/licenses/mit-license.php)
  */
 
-$cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework');
+$cakeDescription = __d('cake_dev', 'SB - Sistema de Biblioteca');
 ?>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
+<!DOCTYPE html>
+<html>
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<title>
@@ -29,31 +29,67 @@ $cakeDescription = __d('cake_dev', 'CakePHP: the rapid development php framework
 	<?php
 		echo $this->Html->meta('icon');
 
-		echo $this->Html->css('cake.generic');
-
+		echo $this->Html->css('bootstrap.min');
+		echo $this->Html->css('theme');
+		?>
+		<style type="text/css">
+      body {
+        padding-top: 60px;
+        padding-bottom: 40px;
+      }
+      .sidebar-nav {
+        padding: 9px 0;
+      }
+    </style>
+	<?php
 		echo $this->fetch('meta');
 		echo $this->fetch('css');
 		echo $this->fetch('script');
 	?>
 </head>
 <body>
-	<div id="container">
-		<div id="header">
-			<h1><?php echo $this->Html->link($cakeDescription, 'http://cakephp.org'); ?></h1>
-		</div>
-		<div id="content">
+	<div class="navbar navbar-fixed-top">
+	  <div class="navbar-inner">
+	    <div class="container">
+	      <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	        <span class="icon-bar"></span>
+	      </a>
+	      <a class="brand" href="#">SB</a>
+	      <div class="btn-group pull-right">
+	        <a class="btn dropdown-toggle" data-toggle="dropdown" href="#">
+	          <i class="icon-user"></i> Usuário
+	          <span class="caret"></span>
+	        </a>
+	        <ul class="dropdown-menu">
+	          <li><a href="#">Profile</a></li>
+	          <li class="divider"></li>
+	          <li><a href="#">Sign Out</a></li>
+	        </ul>
+	      </div>
+	      <div class="nav-collapse">
+	        <ul class="nav">
+	          <li class="active"><a href="#">Home</a></li>
+	          <li><a href="#about">Livros</a></li>
+	          <li><a href="#contact">Autores</a></li>
+	        </ul>
+	      </div><!--/.nav-collapse -->
+	    </div>
+	  </div>
+	</div>
+	<!-- /navbar -->
 
-			<?php echo $this->Session->flash(); ?>
+	<div class="container-fluid">
+		<?php echo $this->fetch('content');?>
+	</div>
+	<hr />
 
-			<?php echo $this->fetch('content'); ?>
-		</div>
-		<div id="footer">
-			<?php echo $this->Html->link(
-					$this->Html->image('cake.power.gif', array('alt' => $cakeDescription, 'border' => '0')),
-					'http://www.cakephp.org/',
-					array('target' => '_blank', 'escape' => false)
-				);
-			?>
+	<div class="container">
+		<div class="row">
+			<div class="span8">
+				Sistema de gerenciamento para biblioteca - Desenvolvido por <?php echo $this->Html->link('Araan Branco', 'http://facebook.com/AraanBranco',array('target' => 'blank') ); ?>
+			</div>		
 		</div>
 	</div>
 	<?php echo $this->element('sql_dump'); ?>
