@@ -127,3 +127,45 @@
 #1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
 #2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2012-08-07 15:05:15 Error: [MissingTableException] Table categorias for model Categoria was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('categorias')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/CategoriasController.php(7): Model->find('all')
+#3 [internal function]: CategoriasController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(CategoriasController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(CategoriasController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-07 15:06:21 Error: [MissingControllerException] Controller class LivroController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-07 15:54:00 Error: [MissingActionException] Action LivrosController::livros() could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-07 16:04:40 Error: [MissingHelperException] Helper class FormHelperHelper could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/View/HelperCollection.php(62): HelperCollection->load('FormHelper')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/View/View.php(812): HelperCollection->__isset('FormHelper')
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/View/Livros/add.ctp(5): View->__get('FormHelper')
+#3 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/View/View.php(920): include('/Users/eu/Deskt...')
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/View/View.php(883): View->_evaluate('/Users/eu/Deskt...', Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/View/View.php(475): View->_render('/Users/eu/Deskt...')
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#8 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-08-07 16:05:08 Error: [MissingHelperException] Helper class BootstrapFormHelperHelper could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/View/HelperCollection.php(62): HelperCollection->load('BootstrapFormHe...')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/View/View.php(812): HelperCollection->__isset('BootstrapFormHe...')
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/View/Livros/add.ctp(5): View->__get('BootstrapFormHe...')
+#3 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/View/View.php(920): include('/Users/eu/Deskt...')
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/View/View.php(883): View->_evaluate('/Users/eu/Deskt...', Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/View/View.php(475): View->_render('/Users/eu/Deskt...')
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#8 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}

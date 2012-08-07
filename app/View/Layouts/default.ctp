@@ -91,7 +91,7 @@ $cakeDescription = __d('cake_dev', 'SB - Sistema de Biblioteca');
 				Sistema de gerenciamento para biblioteca - Desenvolvido por <?php echo $this->Html->link('Araan Branco', 'http://facebook.com/AraanBranco',array('target' => 'blank') ); ?>
 			</div>		
 		</div>
+		<?php echo $this->element('sql_dump'); ?>
 	</div>
-	<?php echo $this->element('sql_dump'); ?>
 </body>
 </html>

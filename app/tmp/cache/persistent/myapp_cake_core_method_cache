@@ -1,2 +1,2 @@
-1343250240
-a:2:{s:4:"name";a:5:{s:32:"d60cf07e987d78d24475ee480758f20f";s:9:"`cakephp`";s:32:"62e81aa50654e9c18daed58c89601538";s:12:"`categorias`";s:32:"1772d2e5eb164b197053fbbab9c25700";s:16:"`Categoria`.`id`";s:32:"ddf948e547427e35ff943dd9bd5a84aa";s:23:"`Categoria`.`categoria`";s:32:"53918af68b4bb291c469330d4242ce29";s:11:"`Categoria`";}s:6:"fields";a:1:{s:32:"de73e817766b8955ee7ee3a1d4645aaa";a:2:{i:0;s:16:"`Categoria`.`id`";i:1;s:23:"`Categoria`.`categoria`";}}}
+1344369227
+a:2:{s:4:"name";a:5:{s:32:"256487ce9ed41714a5d66cd93e85dc11";s:12:"`biblioteca`";s:32:"56c2db5aa7126b66528c70d115a3394f";s:8:"`livros`";s:32:"d9a7f615f530d6e5dded4e9e4890a99f";s:12:"`Livro`.`id`";s:32:"69f6c48b1157a5540ccfbaabcef7891a";s:15:"`Livro`.`livro`";s:32:"2495d1ec606fc080dc58efe07aebfade";s:7:"`Livro`";}s:6:"fields";a:1:{s:32:"e221717e077fa42bbf80495f4bce7edb";a:2:{i:0;s:12:"`Livro`.`id`";i:1;s:15:"`Livro`.`livro`";}}}
