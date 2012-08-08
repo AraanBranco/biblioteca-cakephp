@@ -71,8 +71,9 @@ $cakeDescription = __d('cake_dev', 'SB - Sistema de Biblioteca');
 	      <div class="nav-collapse">
 	        <ul class="nav">
 	          <li class="active"><a href="#">Home</a></li>
-	          <li><a href="livros/">Livros</a></li>
-	          <li><a href="#contact">Autores</a></li>
+	          <li><a href="/livros">Livros</a></li>
+	          <li><a href="/autores">Autores</a></li>
+	          <li><a href="/generos">Generos</a></li>
 	        </ul>
 	      </div><!--/.nav-collapse -->
 	    </div>

@@ -133,6 +133,24 @@ Cache::config('default', array('engine' => 'File'));
  *
  */
 
+$_pluralIrregular = array(
+ 'autores' => 'autor'
+);
+$_uninflected = array('atlas', 'lapis', 'onibus', 'pires', 'virus', '.*x', 'status');
+ 
+Inflector::rules('plural', array(
+'rules' => array(
+'/^(.*)ao$/i' => '\1oes',
+'/^(.*)(r|s|z)$/i' => '\1\2es',
+'/^(.*)(a|e|o|u)l$/i' => '\1\2is',
+'/^(.*)il$/i' => '\1is',
+'/^(.*)(m|n)$/i' => '\1ns',
+'/^(.*)$/i' => '\1s'
+),
+'uninflected' => $_uninflected,
+'irregular' => $_pluralIrregular
+), true);
+
 /**
  * Plugins need to be loaded manually, you can either load them one by one or all of them in a single call
  * Uncomment one of the lines below, as you need. make sure you read the documentation on CakePlugin to use more

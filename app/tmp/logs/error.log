@@ -169,3 +169,119 @@
 #8 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
 #9 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #10 {main}
+2012-08-08 08:42:57 Error: [MissingControllerException] Controller class GenerosController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-08 14:11:35 Error: [MissingControllerException] Controller class AddController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-08 14:11:45 Error: [MissingControllerException] Controller class AddController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-08 14:19:47 Error: [MissingActionException] Action GenerosController::deletar() could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-08 14:22:42 Error: [MissingActionException] Action GenerosController::deletar() could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-08 14:24:17 Error: [MissingActionException] Action GenerosController::deletar() could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-08 14:24:37 Error: [MissingActionException] Action GenerosController::deletar() could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-08 14:24:39 Error: [MissingActionException] Action GenerosController::deletar() could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-08 14:54:58 Error: [MissingActionException] Action GenerosController::editar() could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-08 15:10:11 Error: [MissingActionException] Action GenerosController::generos() could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-08 15:10:16 Error: [MissingActionException] Action GenerosController::generos() could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-08 15:12:41 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'redirect' at line 1
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('redirect', Array)
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('redirect', Array, Array)
+#3 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(613): DboSource->fetchAll('redirect', Array, Array)
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(784): DboSource->query('redirect', Array, Object(Genero))
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(39): Model->__call('redirect', Array)
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(39): Genero->redirect()
+#7 [internal function]: GenerosController->deletar('5')
+#8 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#9 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#10 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#11 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#12 {main}
+2012-08-08 15:15:43 Error: [MissingControllerException] Controller class AutoresController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-08 16:35:18 Error: [MissingTableException] Table autors for model Autor was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('autors')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/AutoresController.php(7): Model->find('all')
+#3 [internal function]: AutoresController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AutoresController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AutoresController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-08 16:35:33 Error: [MissingTableException] Table autors for model Autor was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('autors')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/AutoresController.php(7): Model->find('all')
+#3 [internal function]: AutoresController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AutoresController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AutoresController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-08 16:35:43 Error: [MissingTableException] Table autors for model Autor was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('autors')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/AutoresController.php(6): Model->find('all')
+#3 [internal function]: AutoresController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AutoresController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AutoresController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-08 16:35:44 Error: [MissingTableException] Table autors for model Autor was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('autors')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/AutoresController.php(6): Model->find('all')
+#3 [internal function]: AutoresController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AutoresController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AutoresController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-08 16:52:38 Error: [MissingTableException] Table autors for model Autor was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('autors')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/AutoresController.php(7): Model->find('all')
+#3 [internal function]: AutoresController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(AutoresController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AutoresController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}

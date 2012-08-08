@@ -1,2 +1,2 @@
-1344369227
-a:2:{s:4:"name";a:5:{s:32:"256487ce9ed41714a5d66cd93e85dc11";s:12:"`biblioteca`";s:32:"56c2db5aa7126b66528c70d115a3394f";s:8:"`livros`";s:32:"d9a7f615f530d6e5dded4e9e4890a99f";s:12:"`Livro`.`id`";s:32:"69f6c48b1157a5540ccfbaabcef7891a";s:15:"`Livro`.`livro`";s:32:"2495d1ec606fc080dc58efe07aebfade";s:7:"`Livro`";}s:6:"fields";a:1:{s:32:"e221717e077fa42bbf80495f4bce7edb";a:2:{i:0;s:12:"`Livro`.`id`";i:1;s:15:"`Livro`.`livro`";}}}
+1344455573
+a:2:{s:4:"name";a:5:{s:32:"256487ce9ed41714a5d66cd93e85dc11";s:12:"`biblioteca`";s:32:"9ac80b173b1e9b48ae34d44f126778ba";s:9:"`autores`";s:32:"ba4730b090e1cf4adfc2119e2e1a941d";s:12:"`Autor`.`id`";s:32:"28206cb269da6f14ae2629139695e294";s:15:"`Autor`.`autor`";s:32:"e89a40b313af6ec28bae71f5983f6818";s:7:"`Autor`";}s:6:"fields";a:1:{s:32:"b81120eeccc8778211d235b7f872230d";a:2:{i:0;s:12:"`Autor`.`id`";i:1;s:15:"`Autor`.`autor`";}}}
