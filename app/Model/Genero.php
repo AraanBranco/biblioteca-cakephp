@@ -9,7 +9,8 @@ class Genero extends AppModel {
       ),
     'classificacao' => array(
       'rule' => 'numeric',
-      'required' => true
+      'required' => true,
+      'message' => 'Sómente numéricos'
       )
     );
 }

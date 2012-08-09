@@ -1,6 +1,7 @@
 <?php
 class GenerosController extends AppController {
   public $name = 'Generos';
+  public $useTable = 'generos';
 
   public function index () {
     $generos = $this->Genero->find("all");

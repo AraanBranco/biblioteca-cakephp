@@ -285,3 +285,426 @@
 #6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(AutoresController), Object(CakeRequest), Object(CakeResponse))
 #7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #8 {main}
+2012-08-09 10:36:24 Error: [MissingTableException] Table genero for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('genero')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(6): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:36:37 Error: [MissingTableException] Table genero for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('genero')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(6): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:37:07 Error: [MissingTableException] Table genero for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('genero')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(6): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:37:09 Error: [MissingControllerException] Controller class GeneroController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-09 10:37:13 Error: [MissingTableException] Table genero for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('genero')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(6): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:37:42 Error: [MissingTableException] Table genero for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('genero')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(7): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:37:42 Error: [MissingTableException] Table genero for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('genero')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(7): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:37:43 Error: [MissingTableException] Table genero for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('genero')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(7): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:37:43 Error: [MissingTableException] Table genero for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('genero')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(7): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:37:55 Error: [MissingTableException] Table genero for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('genero')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(8): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:37:56 Error: [MissingTableException] Table genero for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('genero')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(8): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:37:56 Error: [MissingTableException] Table genero for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('genero')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(8): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:38:46 Error: [MissingTableException] Table genero for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('genero')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(7): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:39:01 Error: [MissingTableException] Table genero for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('genero')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(7): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:39:02 Error: [MissingTableException] Table genero for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('genero')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(7): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:39:02 Error: [MissingTableException] Table genero for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('genero')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(7): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:50:26 Error: [MissingTableException] Table genero for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('genero')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(7): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:50:45 Error: [MissingTableException] Table  for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource(NULL)
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(7): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:50:46 Error: [MissingTableException] Table  for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource(NULL)
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(7): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:50:49 Error: [MissingTableException] Table genero for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('genero')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(7): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:51:01 Error: [MissingTableException] Table genero for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('genero')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(7): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:51:01 Error: [MissingTableException] Table genero for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('genero')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(7): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:51:14 Error: [MissingTableException] Table  for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource(NULL)
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(7): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:51:16 Error: [MissingTableException] Table  for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource(NULL)
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(7): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:51:17 Error: [MissingTableException] Table  for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource(NULL)
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(7): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:51:22 Error: [MissingTableException] Table  for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource(NULL)
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(7): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:51:27 Error: [MissingTableException] Table genero for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('genero')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(7): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:51:36 Error: [MissingTableException] Table genero for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('genero')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(7): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:51:42 Error: [MissingTableException] Table genero for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('genero')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(7): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:51:43 Error: [MissingTableException] Table genero for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('genero')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(7): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:51:47 Error: [MissingTableException] Table genero for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('genero')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(7): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:51:50 Error: [MissingTableException] Table genero for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('genero')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(7): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:51:50 Error: [MissingTableException] Table genero for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('genero')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(7): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:51:54 Error: [MissingTableException] Table genero for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('genero')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(7): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:51:55 Error: [MissingTableException] Table genero for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('genero')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(7): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:51:59 Error: [MissingTableException] Table genero for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('genero')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(7): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:51:59 Error: [MissingTableException] Table genero for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('genero')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(7): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:52:04 Error: [MissingTableException] Table genero for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('genero')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(7): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:52:04 Error: [MissingTableException] Table genero for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('genero')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(7): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:52:08 Error: [MissingTableException] Table  for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource(NULL)
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(7): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:52:09 Error: [MissingTableException] Table  for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource(NULL)
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(7): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:52:12 Error: [MissingTableException] Table genero for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('genero')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(7): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-08-09 10:52:13 Error: [MissingTableException] Table genero for model Genero was not found in datasource default.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(3180): Model->setSource('genero')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): Model->getDataSource()
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/GenerosController.php(7): Model->find('all')
+#3 [internal function]: GenerosController->index()
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(GenerosController), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}

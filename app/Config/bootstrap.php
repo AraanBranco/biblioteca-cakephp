@@ -134,9 +134,9 @@ Cache::config('default', array('engine' => 'File'));
  */
 
 $_pluralIrregular = array(
- 'autores' => 'autor'
+ 'autores' => 'autor',
 );
-$_uninflected = array('atlas', 'lapis', 'onibus', 'pires', 'virus', '.*x', 'status');
+$_uninflected = array('autores');
  
 Inflector::rules('plural', array(
 'rules' => array(
@@ -145,7 +145,8 @@ Inflector::rules('plural', array(
 '/^(.*)(a|e|o|u)l$/i' => '\1\2is',
 '/^(.*)il$/i' => '\1is',
 '/^(.*)(m|n)$/i' => '\1ns',
-'/^(.*)$/i' => '\1s'
+'/^(.*)$/i' => '\1s',
+'/^(.*)s$/i' => '\1'
 ),
 'uninflected' => $_uninflected,
 'irregular' => $_pluralIrregular

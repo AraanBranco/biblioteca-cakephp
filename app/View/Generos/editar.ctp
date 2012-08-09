@@ -1,5 +1,5 @@
 <div class="container">
-  <h1>Editando</h1>
+  <h1>Editando Genero</h1>
 
   <?php
   echo $this->Form->create('Genero', array('action' => 'editar')),

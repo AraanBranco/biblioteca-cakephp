@@ -2,6 +2,7 @@
 class LivrosController extends AppController {
     
   public $name = 'Livros';
+  public $uses  = array('Autores', 'Generos');
 
   public function index () {
     $livros = $this->Livro->find("all");
