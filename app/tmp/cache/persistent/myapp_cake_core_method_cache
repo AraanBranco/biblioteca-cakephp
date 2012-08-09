@@ -1,2 +1,2 @@
-1344539865
+1344542599
 a:2:{s:4:"name";a:7:{s:32:"256487ce9ed41714a5d66cd93e85dc11";s:12:"`biblioteca`";s:32:"56c2db5aa7126b66528c70d115a3394f";s:8:"`livros`";s:32:"d9a7f615f530d6e5dded4e9e4890a99f";s:12:"`Livro`.`id`";s:32:"397aa9b4d7a2ab1cfe0c8abd3ff00cd3";s:14:"`Livro`.`nome`";s:32:"24f271e66f3c34744c6f06a0f2fd4100";s:20:"`Livro`.`generos_id`";s:32:"4a5ac6006af08fb69a444cf3f98d2bf9";s:20:"`Livro`.`autores_id`";s:32:"2495d1ec606fc080dc58efe07aebfade";s:7:"`Livro`";}s:6:"fields";a:1:{s:32:"e221717e077fa42bbf80495f4bce7edb";a:4:{i:0;s:12:"`Livro`.`id`";i:1;s:14:"`Livro`.`nome`";i:2;s:20:"`Livro`.`generos_id`";i:3;s:20:"`Livro`.`autores_id`";}}}
