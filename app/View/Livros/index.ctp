@@ -1,6 +1,6 @@
 <div class="container">
   <h1>Livros</h1>
-  <p class="pull-right"><?php echo $this->Html->link('Adicionar novo livro', 'add', array('class' => 'btn btn-primary'))?></p>
+  <p class="pull-right"><?php echo $this->Html->link('Adicionar novo livro', array('action' => 'add'), array('class' => 'btn btn-primary'))?></p>
   <table class="table table-condensed">
     <thead>
       <tr>
@@ -18,13 +18,13 @@
         <tr>
           <td><?php echo $livro['Livro']['id']?></td>
           <td><?php echo $livro['Livro']['nome']?></td>
-          <td></td>
-          <td></td>
+          <td><?php echo $livro['Livro']['autores_id']?></td>
+          <td><?php echo $livro['Livro']['generos_id']?></td>
           <td>
             <?php echo $this->Html->link('Editar', array('action' => 'editar', $livro['Livro']['id']), array('class' => 'btn btn-info'));
             ?>
             <?php
-             echo $this->Html->link('Deletar', array('action' => 'deletar', $gen['Livro']['id']), array('class' => 'btn btn-danger'), 'Deseja deletar esse livro?');
+             echo $this->Html->link('Deletar', array('action' => 'deletar', $livro['Livro']['id']), array('class' => 'btn btn-danger'), 'Deseja deletar esse livro?');
             ?>
           </td>
         </tr> 

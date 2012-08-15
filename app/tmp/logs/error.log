@@ -708,3 +708,358 @@
 #6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(GenerosController), Object(CakeRequest), Object(CakeResponse))
 #7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #8 {main}
+2012-08-15 11:39:59 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-15 11:51:55 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-15 11:52:32 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-15 11:57:07 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-15 11:57:20 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-15 11:57:58 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-15 11:58:46 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-15 11:59:04 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-15 11:59:56 Error: [MissingControllerException] Controller class Jsstyle.cssController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-15 12:00:02 Error: [MissingActionException] Action LivrosController::style.css() could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-15 12:00:07 Error: [MissingControllerException] Controller class Jsstyle.cssController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-15 12:00:38 Error: [MissingActionException] Action LivrosController::ltrstyle.css() could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-15 12:00:44 Error: [MissingControllerException] Controller class Jsstyle.cssController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-15 12:00:55 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-15 14:27:57 Error: [MissingActionException] Action LivrosController::deletar() could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-15 14:28:37 Error: [MissingActionException] Action LivrosController::del() could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-15 15:11:59 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Livro.generos_id' in 'where clause'
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Genero`...', Array)
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Genero`...', Array, Array)
+#3 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Genero`...', false)
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Genero), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/LivrosController.php(11): Model->find('first', Array)
+#6 [internal function]: LivrosController->index()
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LivrosController), Array)
+#8 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-15 15:12:57 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Livro.generos_id' in 'where clause'
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Genero`...', Array)
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Genero`...', Array, Array)
+#3 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Genero`...', false)
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Genero), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/LivrosController.php(11): Model->find('first', Array)
+#6 [internal function]: LivrosController->index()
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LivrosController), Array)
+#8 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-15 15:12:58 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Livro.generos_id' in 'where clause'
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Genero`...', Array)
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Genero`...', Array, Array)
+#3 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Genero`...', false)
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Genero), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/LivrosController.php(11): Model->find('first', Array)
+#6 [internal function]: LivrosController->index()
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LivrosController), Array)
+#8 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-15 15:15:13 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Livro.generos_id' in 'where clause'
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Genero`...', Array)
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Genero`...', Array, Array)
+#3 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Genero`...', false)
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Genero), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/LivrosController.php(11): Model->find('first', Array)
+#6 [internal function]: LivrosController->index()
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LivrosController), Array)
+#8 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-15 15:23:41 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Livro.generos_id' in 'where clause'
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Genero`...', Array)
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Genero`...', Array, Array)
+#3 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Genero`...', false)
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Genero), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/LivrosController.php(11): Model->find('first', Array)
+#6 [internal function]: LivrosController->index()
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LivrosController), Array)
+#8 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-15 15:38:45 Error: [PDOException] SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '= (Array)    LIMIT 1' at line 1
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Genero`...', Array)
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Genero`...', Array, Array)
+#3 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Genero`...', false)
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Genero), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/LivrosController.php(11): Model->find('first', Array)
+#6 [internal function]: LivrosController->index()
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LivrosController), Array)
+#8 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-15 15:39:28 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Livros.id' in 'where clause'
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Genero`...', Array)
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Genero`...', Array, Array)
+#3 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Genero`...', false)
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): DboSource->read(Object(Genero), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/LivrosController.php(11): Model->find('first', Array)
+#6 [internal function]: LivrosController->index()
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LivrosController), Array)
+#8 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-15 15:39:44 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Genero.id' in 'where clause'
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Livro`....', Array)
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Livro`....', Array, Array)
+#3 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Livro`....', false)
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): DboSource->read(Object(AppModel), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/LivrosController.php(11): Model->find('first', Array)
+#6 [internal function]: LivrosController->index()
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LivrosController), Array)
+#8 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-15 15:40:00 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Genero.id' in 'where clause'
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Livro`....', Array)
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Livro`....', Array, Array)
+#3 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Livro`....', false)
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): DboSource->read(Object(AppModel), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/LivrosController.php(11): Model->find('first', Array)
+#6 [internal function]: LivrosController->index()
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LivrosController), Array)
+#8 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-15 15:40:16 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Generos.id' in 'where clause'
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Livro`....', Array)
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Livro`....', Array, Array)
+#3 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Livro`....', false)
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): DboSource->read(Object(AppModel), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/LivrosController.php(11): Model->find('first', Array)
+#6 [internal function]: LivrosController->index()
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LivrosController), Array)
+#8 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-15 15:42:46 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'generos.id' in 'where clause'
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Livro`....', Array)
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Livro`....', Array, Array)
+#3 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Livro`....', false)
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): DboSource->read(Object(AppModel), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/LivrosController.php(11): Model->find('first', Array)
+#6 [internal function]: LivrosController->index()
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LivrosController), Array)
+#8 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-15 15:48:33 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'generos.id' in 'where clause'
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Livro`....', Array)
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Livro`....', Array, Array)
+#3 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Livro`....', false)
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): DboSource->read(Object(AppModel), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/LivrosController.php(12): Model->find('first', Array)
+#6 [internal function]: LivrosController->index()
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LivrosController), Array)
+#8 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-15 15:48:34 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'generos.id' in 'where clause'
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Livro`....', Array)
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Livro`....', Array, Array)
+#3 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Livro`....', false)
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): DboSource->read(Object(AppModel), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/LivrosController.php(12): Model->find('first', Array)
+#6 [internal function]: LivrosController->index()
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LivrosController), Array)
+#8 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-15 15:48:39 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Generos.id' in 'where clause'
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Livro`....', Array)
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Livro`....', Array, Array)
+#3 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Livro`....', false)
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): DboSource->read(Object(AppModel), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/LivrosController.php(12): Model->find('first', Array)
+#6 [internal function]: LivrosController->index()
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LivrosController), Array)
+#8 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-15 15:49:05 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Genero.id' in 'where clause'
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Livro`....', Array)
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Livro`....', Array, Array)
+#3 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Livro`....', false)
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): DboSource->read(Object(AppModel), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/LivrosController.php(12): Model->find('first', Array)
+#6 [internal function]: LivrosController->index()
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LivrosController), Array)
+#8 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-15 15:49:06 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Genero.id' in 'where clause'
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Livro`....', Array)
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Livro`....', Array, Array)
+#3 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Livro`....', false)
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): DboSource->read(Object(AppModel), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/LivrosController.php(12): Model->find('first', Array)
+#6 [internal function]: LivrosController->index()
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LivrosController), Array)
+#8 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-15 15:56:14 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Genero.id' in 'field list'
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Livro`....', Array)
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Livro`....', Array, Array)
+#3 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Livro`....', false)
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): DboSource->read(Object(AppModel), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/LivrosController.php(12): Model->find('first', Array)
+#6 [internal function]: LivrosController->index()
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LivrosController), Array)
+#8 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-15 15:56:52 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Genero.id' in 'field list'
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Livro`....', Array)
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Livro`....', Array, Array)
+#3 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Livro`....', false)
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): DboSource->read(Object(AppModel), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/LivrosController.php(13): Model->find('first', Array)
+#6 [internal function]: LivrosController->index()
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LivrosController), Array)
+#8 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-15 15:57:25 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Genero.id' in 'field list'
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Livro`....', Array)
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Livro`....', Array, Array)
+#3 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Livro`....', false)
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): DboSource->read(Object(AppModel), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/LivrosController.php(13): Model->find('first', Array)
+#6 [internal function]: LivrosController->index()
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LivrosController), Array)
+#8 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-15 15:57:28 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Genero.id' in 'field list'
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Livro`....', Array)
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Livro`....', Array, Array)
+#3 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Livro`....', false)
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): DboSource->read(Object(AppModel), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/LivrosController.php(13): Model->find('first', Array)
+#6 [internal function]: LivrosController->index()
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LivrosController), Array)
+#8 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-15 15:57:51 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Genero.id' in 'field list'
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Livro`....', Array)
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Livro`....', Array, Array)
+#3 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Livro`....', false)
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): DboSource->read(Object(AppModel), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/LivrosController.php(13): Model->find('first', Array)
+#6 [internal function]: LivrosController->index()
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LivrosController), Array)
+#8 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-15 15:57:56 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Genero.id' in 'field list'
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Livro`....', Array)
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Livro`....', Array, Array)
+#3 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Livro`....', false)
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): DboSource->read(Object(AppModel), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/LivrosController.php(13): Model->find('first', Array)
+#6 [internal function]: LivrosController->index()
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LivrosController), Array)
+#8 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}
+2012-08-15 15:58:04 Error: [PDOException] SQLSTATE[42S22]: Column not found: 1054 Unknown column 'Genero.id' in 'field list'
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(461): PDOStatement->execute(Array)
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(427): DboSource->_execute('SELECT `Livro`....', Array)
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(671): DboSource->execute('SELECT `Livro`....', Array, Array)
+#3 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Datasource/DboSource.php(1082): DboSource->fetchAll('SELECT `Livro`....', false)
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Model/Model.php(2631): DboSource->read(Object(AppModel), Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/Controller/LivrosController.php(13): Model->find('first', Array)
+#6 [internal function]: LivrosController->index()
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(LivrosController), Array)
+#8 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#9 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#10 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#11 {main}

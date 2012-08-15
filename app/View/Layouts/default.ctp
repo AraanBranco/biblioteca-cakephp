@@ -28,9 +28,10 @@ $cakeDescription = __d('cake_dev', 'SB - Sistema de Biblioteca');
 	</title>
 	<?php
 		echo $this->Html->meta('icon');
+		echo $this->fetch('meta');
 
-		echo $this->Html->css('bootstrap.min');
-		echo $this->Html->css('theme');
+		echo $this->Html->css(array('bootstrap.min', 'theme'));
+		echo $this->fetch('css');
 		?>
 		<style type="text/css">
       body {
@@ -42,8 +43,7 @@ $cakeDescription = __d('cake_dev', 'SB - Sistema de Biblioteca');
       }
     </style>
 	<?php
-		echo $this->fetch('meta');
-		echo $this->fetch('css');
+		echo $this->Html->script('jquery.min');
 		echo $this->fetch('script');
 	?>
 </head>
@@ -84,6 +84,7 @@ $cakeDescription = __d('cake_dev', 'SB - Sistema de Biblioteca');
 	<div class="container-fluid">
 		<?php echo $this->fetch('content');?>
 	</div>
+	<!-- /container-fluid -->
 	<hr />
 
 	<div class="container">
