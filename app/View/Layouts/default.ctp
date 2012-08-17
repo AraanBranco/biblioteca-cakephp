@@ -43,7 +43,10 @@ $cakeDescription = __d('cake_dev', 'SB - Sistema de Biblioteca');
       }
     </style>
 	<?php
-		echo $this->Html->script('jquery.min');
+		echo $this->Html->script(array(
+			'jquery.min',
+			'application'
+			));
 		echo $this->fetch('script');
 	?>
 </head>

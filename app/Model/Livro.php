@@ -7,7 +7,7 @@ class Livro extends AppModel {
       ),
     'Autor' => array(
       'foreignKey' => 'autores_id'
-      )
+      ),
     );
 }
 ?>

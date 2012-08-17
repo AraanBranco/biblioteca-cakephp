@@ -30,7 +30,31 @@ class LivrosController extends AppController {
       }
 
     }
+  }
 
+  public function editar ($id = null) {
+    if ( $id && $this->request->isGet() ) {
+      $livros = $this->Livro->read(null, $id);
+      $this->set(compact('livros'));
+
+      $selectAutores = $this->Autor->find('list', array(
+        'fields' => array('Autor.autor')
+        ));
+      $this->set(compact('selectAutores'));
+
+      $selectGeneros = $this->Genero->find('list', array(
+        'fields' => array('Genero.genero')
+        ));
+      $this->set(compact('selectGeneros'));
+
+      $this->request->data = $this->Livro->read(null, $id);
+
+    } else {
+      if( $this->Livro->save($this->data) ) {
+        $this->Session->setFlash('Livro salvo');
+        $this->redirect( array('action' => 'index') );
+      }
+    }
   }
 
   public function deletar ($id = null) {
@@ -42,5 +66,5 @@ class LivrosController extends AppController {
     }
   }
 
+    
 }
-?>
