@@ -7,13 +7,8 @@ class LivrosController extends AppController {
 
   public function index () {
     $livros = $this->Livro->find("all");
-    $genero = $this->Livro->find('first', array(
-      'fields' => array('Livro.generos_id', 'Genero.id'),
-      'conditions' => array('Livro.generos_id = Genero.id')
-      ));
-
-    $this->set(compact('genero'));
     $this->set(compact('livros'));
+
   }
 
   public function add() {

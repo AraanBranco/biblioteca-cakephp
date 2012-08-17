@@ -18,8 +18,8 @@
         <tr>
           <td><?php echo $livro['Livro']['id']?></td>
           <td><?php echo $livro['Livro']['nome']?></td>
-          <td><?php echo $livro['Livro']['autores_id']?></td>
-          <td><?php echo $livro['Livro']['generos_id']?></td>
+          <td><?php echo $livro['Autor']['autor']?></td>
+          <td><?php echo $livro['Genero']['genero']?></td>
           <td>
             <?php echo $this->Html->link('Editar', array('action' => 'editar', $livro['Livro']['id']), array('class' => 'btn btn-info'));
             ?>

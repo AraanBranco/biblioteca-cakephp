@@ -23,7 +23,7 @@ $cakeDescription = __d('cake_dev', 'SB - Sistema de Biblioteca');
 <head>
 	<?php echo $this->Html->charset(); ?>
 	<title>
-		<?php echo $cakeDescription ?>:
+		<?php echo $cakeDescription ?> | 
 		<?php echo $title_for_layout; ?>
 	</title>
 	<?php
@@ -70,10 +70,10 @@ $cakeDescription = __d('cake_dev', 'SB - Sistema de Biblioteca');
 	      </div>
 	      <div class="nav-collapse">
 	        <ul class="nav">
-	          <li class="active"><a href="#">Home</a></li>
-	          <li><a href="/livros">Livros</a></li>
-	          <li><a href="/autores">Autores</a></li>
-	          <li><a href="/generos">Generos</a></li>
+	          <li><?php echo $this->Html->link('Home', array('controller' => 'pages', 'action' => 'home')) ?></li>
+	          <li><?php echo $this->Html->link('Livros', array('controller' => 'livros', 'action' => 'index')) ?></li>
+	          <li><?php echo $this->Html->link('Autores', array('controller' => 'autores', 'action' => 'index')) ?></li>
+	          <li><?php echo $this->Html->link('Generos', array('controller' => 'generos', 'action' => 'index')) ?></li>
 	        </ul>
 	      </div><!--/.nav-collapse -->
 	    </div>
