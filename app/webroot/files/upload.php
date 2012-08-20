@@ -15,7 +15,7 @@ if (!empty($_FILES)) {
   if (in_array($fileParts['extension'],$fileTypes)) {
     move_uploaded_file($tempFile,$targetFile);
   } else {
-    echo 'Invalid file type.';
+    echo 'Tipo de arquivo inválido.';
   }
 }
 ?>

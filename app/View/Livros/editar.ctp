@@ -16,7 +16,6 @@
   <div class="tabbable"> <!-- Only required for left/right tabs -->
         <ul class="nav nav-tabs" id="tabs-edit">
           <li class="active"><a href="#info" data-toggle="tab">Infos</a></li>
-          <li><a href="#upload" data-toggle="tab">Upload</a></li>
           <li><a href="#editar" data-toggle="tab">Editar</a></li>
         </ul>
 
@@ -52,41 +51,20 @@
           </div>
           <!-- /Infos -->
 
-          <!-- Upload -->
-          <div class="tab-pane" id="upload">
-            <script type="text/javascript">
-            $(document).ready(function() {
-              $("#fileInput").uploadify({ 
-                'uploader'       : '/files/upload.php',
-                'buttonText'     : 'Enviar',
-                'swf'            : '/files/uploadify.swf',
-                'method'         : 'post',
-                'formData'       : {'id' : '<?php echo $livros['Livro']['id']?>', 'nome' : '<?php echo Inflector::slug(strtolower($livros['Livro']['nome']));?>'},
-                'folder'         : '/img/livros',
-                'cancelImg'      : '/img/uploadify-cancel.png', 
-                'fileExt'        : '*.JPG;*.jpg;*.jpeg;*.png;',
-              }); 
-            }); 
-            </script> 
-            <p><strong>Multiple File Upload</strong></p> 
-            <input type="file" id="fileInput" name="file_upload">
-            <a href="javascript:$('#fileInput').uploadifyClearQueue();">Clear 
-            Queue</a> 
-          </div>
-          <!-- /Upload -->
-
           <!-- Editar -->
           <div class="tab-pane" id="editar">
             <?php
-              echo $this->Form->create('Livro', array('action' => 'editar')),
+              echo $this->Form->create('Livro', array('action' => 'editar', 'type' => 'file')),
                    $this->Form->input('id'),
                    $this->Form->input('nome'),
                    $this->Form->label('autores_id', 'Autor'),
                    $this->Form->select('autores_id', $selectAutores, array('empty' => false)),
                    $this->Form->label('generos_id', 'Genero'),
                    $this->Form->select('generos_id', $selectGeneros, array('empty' => false)),
+                   $this->Form->input('capa', array('type' => 'file')),
                    $this->Form->textarea('descricao', array('class' => 'span12', 'rows' => '10'));
             ?>
+            <?php echo $this->Form->input('photo_dir', array('type' => 'hidden')); ?>
             <div class="form-actions">
               <?php
                 echo $this->Form->submit('Salvar', array('class' => 'btn btn-primary')),

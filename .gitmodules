@@ -1,0 +1,3 @@
+[submodule "plugins/cake_upload"]
+	path = plugins/cake_upload
+	url = git@github.com:marciotrindade/cake_upload.git
