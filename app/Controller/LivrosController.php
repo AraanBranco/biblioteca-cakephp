@@ -4,14 +4,6 @@ class LivrosController extends AppController {
   public $name = 'Livros';
   public $uses  = array('Autor', 'Genero', 'Livro');
   public $useTable = array('autores', 'generos', 'livros');
-  public $files = array(
-        "capa" => array(
-            "origin" => array("type" => "move"),
-            "big" => array("type" => "resize", "width" => 900, "height"=>700),
-            "image" => array("type" => "fixed", "width" => 273, "height"=>365),
-            "thumb" => array("type" => "crop", "width"=>126, "height"=>157),
-        )
-    );
 
   public function index () {
     $livros = $this->Livro->find("all");

@@ -10,7 +10,7 @@
     ), null, array('inline' => false));
 ?>
 
-<div class="container">
+<div class="container" style="background:url(<?php echo '/files/livro/capa/'.$livros['Livro']['photo_dir'].'/'.$livros['Livro']['capa']; ?>) no-repeat center center;">
   <h1>Editar Livro: <?php echo $livros['Livro']['nome']?></h1>
 
   <div class="tabbable"> <!-- Only required for left/right tabs -->
@@ -34,7 +34,7 @@
                 echo '<h6>Sem fotos</h6>';
               } else { ?>
               <div class="thumbnail span2">
-                <img src="<?php echo 'img/livros/'.$livros['Livro']['capa']; ?>" alt="<?php echo $livros['Livro']['nome']?>" width= 120 height=160>
+                <img src="<?php echo '/files/livro/capa/'.$livros['Livro']['photo_dir'].'/'.$livros['Livro']['capa']; ?>" alt="<?php echo $livros['Livro']['nome']?>" width= 120 height=160>
               </div>
               <?php } ?>
               </div>
@@ -43,7 +43,9 @@
               <hr />
 
               <h4>Descrição</h4>
-              <blockquote><?php echo $livros['Livro']['descricao']?></blockquote>
+              <blockquote>
+                <?php echo $livros['Livro']['descricao']?>
+              </blockquote>
             </div>
 
 
