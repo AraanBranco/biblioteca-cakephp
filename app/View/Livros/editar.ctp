@@ -33,8 +33,9 @@
               <?php if( $livros['Livro']['capa'] == NULL ) {
                 echo '<h6>Sem fotos</h6>';
               } else { ?>
-              <div class="thumbnail span2">
-                <img src="<?php echo '/files/livro/capa/'.$livros['Livro']['photo_dir'].'/'.$livros['Livro']['capa']; ?>" alt="<?php echo $livros['Livro']['nome']?>" width= 120 height=160>
+              <div class="thumbnail span8">
+                <?php echo $livros['Livro']['capa']; ?>
+                <?php echo $this->Html->image('/files/livro/capa/'.$livros['Livro']['id'].'/'.$livros['Livro']['capa'], array('title' => $livros['Livro']['nome'])); ?>
               </div>
               <?php } ?>
               </div>
@@ -64,6 +65,7 @@
                    $this->Form->label('generos_id', 'Genero'),
                    $this->Form->select('generos_id', $selectGeneros, array('empty' => false)),
                    $this->Form->input('capa', array('type' => 'file')),
+                   $this->Form->label('descricao', 'Descricao'),
                    $this->Form->textarea('descricao', array('class' => 'span12', 'rows' => '10'));
             ?>
             <?php echo $this->Form->input('photo_dir', array('type' => 'hidden')); ?>

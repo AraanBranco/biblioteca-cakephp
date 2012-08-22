@@ -48,12 +48,11 @@ class LivrosController extends AppController {
       $this->set(compact('selectGeneros'));
 
       $this->request->data = $this->Livro->read(null, $id);
-
     } else {
       if( $this->Livro->save($this->data) ) {
 
         $this->Session->setFlash('Livro salvo');
-        $this->redirect( array('action' => 'index') );
+        $this->redirect( array('action' => 'editar', $id) );
       }
     }
   }

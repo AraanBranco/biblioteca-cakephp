@@ -12,6 +12,9 @@
          <?php echo $this->Form->select('generos_id', $genero, array('empty' => false)); ?>
          <label for="autores_id">Autor</label>
          <?php echo $this->Form->select('autores_id', $autor, array('empty' => false)); ?>
+
+         <?php echo $this->Form->input('capa', array('type' => 'file')),
+          $this->Form->input('photo_dir', array('type' => 'hidden')); ?>
          <script type="text/javascript">
           $(function() {
             $('#LivroDescricao').redactor();
