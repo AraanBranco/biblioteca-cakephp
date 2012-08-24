@@ -61,11 +61,11 @@
                    $this->Form->input('id'),
                    $this->Form->input('nome'),
                    $this->Form->label('autores_id', 'Autor'),
-                   $this->Form->select('autores_id', $selectAutores, array('empty' => false)),
-                   $this->Form->label('generos_id', 'Genero'),
-                   $this->Form->select('generos_id', $selectGeneros, array('empty' => false)),
-                   $this->Form->input('capa', array('type' => 'file')),
-                   $this->Form->label('descricao', 'Descricao'),
+                   $this->Form->select('autores_id', $selectAutores, array('empty' => false));
+                  echo $this->Form->label('generos_id', 'Genero'),
+                   $this->Form->select('generos_id', $selectGeneros, array('empty' => false));
+                  echo $this->Form->input('capa', array('type' => 'file'));
+                  echo $this->Form->label('descricao', 'Descricao'),
                    $this->Form->textarea('descricao', array('class' => 'span12', 'rows' => '10'));
             ?>
             <?php echo $this->Form->input('photo_dir', array('type' => 'hidden')); ?>
