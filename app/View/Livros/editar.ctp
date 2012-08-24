@@ -10,7 +10,7 @@
     ), null, array('inline' => false));
 ?>
 
-<div class="container" style="background:url(<?php echo '/files/livro/capa/'.$livros['Livro']['photo_dir'].'/'.$livros['Livro']['capa']; ?>) no-repeat center center;">
+<div class="container" style="background:url(<?php echo '/uploads/livro/capa/'.$livros['Livro']['capa']; ?>) no-repeat center center;">
   <h1>Editar Livro: <?php echo $livros['Livro']['nome']?></h1>
 
   <div class="tabbable"> <!-- Only required for left/right tabs -->
@@ -34,8 +34,8 @@
                 echo '<h6>Sem fotos</h6>';
               } else { ?>
               <div class="thumbnail span8">
-                <?php echo $livros['Livro']['capa']; ?>
-                <?php echo $this->Html->image('/files/livro/capa/'.$livros['Livro']['id'].'/'.$livros['Livro']['capa'], array('title' => $livros['Livro']['nome'])); ?>
+                <?php echo $this->Livro->MeioUpload->attach('MeioUpload', array('dir' => '/uploads/livro/'));?>
+                <?php echo $this->Html->image('/uploads/livro/capa/thumb/'.$livros['Livro']['capa'], array('title' => $livros['Livro']['nome'])); ?>
               </div>
               <?php } ?>
               </div>
@@ -68,7 +68,6 @@
                   echo $this->Form->label('descricao', 'Descricao'),
                    $this->Form->textarea('descricao', array('class' => 'span12', 'rows' => '10'));
             ?>
-            <?php echo $this->Form->input('photo_dir', array('type' => 'hidden')); ?>
             <div class="form-actions">
               <?php
                 echo $this->Form->submit('Salvar', array('class' => 'btn btn-primary')),
