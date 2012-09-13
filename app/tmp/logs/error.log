@@ -230,3 +230,321 @@
 #8 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
 #9 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #10 {main}
+2012-08-27 16:19:53 Error: [MissingActionException] Action LivrosController::lista() could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-27 16:20:33 Error: [MissingActionException] Action LivrosController::listar() could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-27 16:20:47 Error: [MissingActionException] Action LivrosController::listar() could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-08-27 16:21:23 Error: [MissingHelperException] Helper class LivroHelper could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/View/HelperCollection.php(62): HelperCollection->load('Livro')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/View/View.php(812): HelperCollection->__isset('Livro')
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/View/Livros/editar.ctp(37): View->__get('Livro')
+#3 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/View/View.php(920): include('/Users/eu/Deskt...')
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/View/View.php(883): View->_evaluate('/Users/eu/Deskt...', Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/View/View.php(475): View->_render('/Users/eu/Deskt...')
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#8 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-08-27 16:46:51 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-27 16:46:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-27 16:46:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-27 16:47:13 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-27 16:47:25 Error: [MissingHelperException] Helper class LivroHelper could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/View/HelperCollection.php(62): HelperCollection->load('Livro')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/View/View.php(812): HelperCollection->__isset('Livro')
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/View/Livros/editar.ctp(37): View->__get('Livro')
+#3 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/View/View.php(920): include('/Users/eu/Deskt...')
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/View/View.php(883): View->_evaluate('/Users/eu/Deskt...', Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/View/View.php(475): View->_render('/Users/eu/Deskt...')
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#8 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-08-27 16:47:46 Error: [MissingHelperException] Helper class LivroHelper could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/View/HelperCollection.php(62): HelperCollection->load('Livro')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/View/View.php(812): HelperCollection->__isset('Livro')
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/View/Livros/editar.ctp(37): View->__get('Livro')
+#3 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/View/View.php(920): include('/Users/eu/Deskt...')
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/View/View.php(883): View->_evaluate('/Users/eu/Deskt...', Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/View/View.php(475): View->_render('/Users/eu/Deskt...')
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#8 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-08-27 16:47:59 Error: [MissingHelperException] Helper class LivroHelper could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/View/HelperCollection.php(62): HelperCollection->load('Livro')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/View/View.php(812): HelperCollection->__isset('Livro')
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/View/Livros/editar.ctp(37): View->__get('Livro')
+#3 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/View/View.php(920): include('/Users/eu/Deskt...')
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/View/View.php(883): View->_evaluate('/Users/eu/Deskt...', Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/View/View.php(475): View->_render('/Users/eu/Deskt...')
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#8 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-08-27 16:48:41 Error: [MissingHelperException] Helper class LivroHelper could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/View/HelperCollection.php(62): HelperCollection->load('Livro')
+#1 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/View/View.php(812): HelperCollection->__isset('Livro')
+#2 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/View/Livros/editar.ctp(37): View->__get('Livro')
+#3 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/View/View.php(920): include('/Users/eu/Deskt...')
+#4 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/View/View.php(883): View->_evaluate('/Users/eu/Deskt...', Array)
+#5 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/View/View.php(475): View->_render('/Users/eu/Deskt...')
+#6 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Controller/Controller.php(957): View->render(NULL, NULL)
+#7 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#8 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(LivrosController), Object(CakeRequest), Object(CakeResponse))
+#9 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#10 {main}
+2012-08-27 16:49:06 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-27 16:49:06 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-27 16:49:21 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-27 16:54:48 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-27 16:54:49 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-08-27 16:55:23 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-03 09:03:32 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-03 09:34:23 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-03 09:34:23 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-03 09:34:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-03 09:34:34 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-03 09:34:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-03 09:34:35 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-03 09:34:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-03 09:34:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-03 09:34:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-03 09:34:46 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-03 09:36:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-03 09:36:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-03 09:37:34 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-03 11:44:37 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-03 11:49:51 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-03 11:49:56 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-03 11:50:34 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-03 11:50:47 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-03 11:50:47 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-03 11:50:50 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-03 11:50:50 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-03 11:51:02 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-03 11:51:02 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-03 11:51:09 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-03 11:58:53 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-03 11:58:54 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-03 11:58:57 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-06 15:06:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-06 15:06:03 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-06 15:06:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-06 15:06:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:33:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:33:10 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:33:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:33:19 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:34:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:34:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:34:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:34:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:34:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:34:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:34:11 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:34:17 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:34:18 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:34:46 Error: [MissingControllerException] Controller class LivroController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:34:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:34:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:34:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:34:59 Error: [MissingControllerException] Controller class LivroController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:35:03 Error: [MissingControllerException] Controller class LivroController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:35:12 Error: [MissingControllerException] Controller class LivroController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:35:35 Error: [MissingControllerException] Controller class LivroController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:35:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:35:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:35:44 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:37:00 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:37:00 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:37:03 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:37:33 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:37:34 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:37:37 Error: [MissingControllerException] Controller class UploadsController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:37:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:37:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:37:43 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:37:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:37:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:37:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:37:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:37:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-09-10 15:37:53 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /Users/eu/Desktop/WEB/WEBSITES/biblioteca-cakephp/app/webroot/index.php(92): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

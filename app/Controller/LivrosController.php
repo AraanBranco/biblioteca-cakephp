@@ -32,6 +32,11 @@ class LivrosController extends AppController {
     }
   }
 
+  public function listar () {
+    $livros = $this->Livro->find("all");
+    $this->set(compact('livros'));
+  }
+
   public function editar ($id = null) {
     if ( $id && $this->request->isGet() ) {
       $livros = $this->Livro->read(null, $id);
@@ -48,6 +53,7 @@ class LivrosController extends AppController {
       $this->set(compact('selectGeneros'));
 
       $this->request->data = $this->Livro->read(null, $id);
+    $this->Livro->regenerateThumbnails();
     } else {
       if( $this->Livro->save($this->data) ) {
 

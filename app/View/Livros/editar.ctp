@@ -10,7 +10,7 @@
     ), null, array('inline' => false));
 ?>
 
-<div class="container" style="background:url(<?php echo '/uploads/livro/capa/'.$livros['Livro']['capa']; ?>) no-repeat center center;">
+<div class="container">
   <h1>Editar Livro: <?php echo $livros['Livro']['nome']?></h1>
 
   <div class="tabbable"> <!-- Only required for left/right tabs -->
@@ -34,7 +34,6 @@
                 echo '<h6>Sem fotos</h6>';
               } else { ?>
               <div class="thumbnail span8">
-                <?php echo $this->Livro->MeioUpload->attach('MeioUpload', array('dir' => '/uploads/livro/'));?>
                 <?php echo $this->Html->image('/uploads/livro/capa/thumb/'.$livros['Livro']['capa'], array('title' => $livros['Livro']['nome'])); ?>
               </div>
               <?php } ?>

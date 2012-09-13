@@ -1,34 +1,57 @@
-<div class="container">
-  <h1>Livros</h1>
-  <p class="pull-right"><?php echo $this->Html->link('Adicionar novo livro', array('action' => 'add'), array('class' => 'btn btn-primary'))?></p>
-  <table class="table table-condensed">
-    <thead>
-      <tr>
-        <th>#</th>
-        <th>Nome</th>
-        <th>Autor</th>
-        <th>Genero</th>
-        <th>Ações</th>
-      </tr>
-    </thead>
+<div class="container-fluid">
+  <div class="container">
+    <div class="hero-unit">
+      <h1>Sistema de Biblioteca</h1>
+    </div>
+  </div>
+</div>
 
-    <tbody>
-      <?php
-        foreach ($livros as $livro) { ?>
-        <tr>
-          <td><?php echo $livro['Livro']['id']?></td>
-          <td><?php echo $livro['Livro']['nome']?></td>
-          <td><?php echo $livro['Autor']['autor']?></td>
-          <td><?php echo $livro['Genero']['genero']?></td>
-          <td>
-            <?php echo $this->Html->link('Editar', array('action' => 'editar', $livro['Livro']['id']), array('class' => 'btn btn-info'));
-            ?>
-            <?php
-             echo $this->Html->link('Deletar', array('action' => 'deletar', $livro['Livro']['id']), array('class' => 'btn btn-danger'), 'Deseja deletar esse livro?');
-            ?>
-          </td>
-        </tr> 
-      <?php } ?>
-    </tbody>
-  </table>
+<div class="container">
+    <h3>Últimos Livros Lançados</h3>
+
+    <?php
+      foreach($livros as $livro) { ?>
+      <div class="span2">
+        <?php
+          echo $this->Html->link(
+            $this->Html->image('/uploads/livro/capa/thumb/'.$livro['Livro']['capa'], array(
+              'alt' => $livro['Livro']['nome'])),
+              array('controller' => 'livro', 'action' => 'view', $livro['Livro']['id']),
+              array('escape' => false)
+              );
+        ?>
+        <div class="caption">
+          <center><p><?php echo $livro['Livro']['nome']; ?></p></center>
+        </div>
+      </div>
+    <?php } ?>
+</div>
+<hr />
+<div class="container">
+    <h3>Livros Recomendados</h3>
+    <div class="span2">
+      <a class="thumbnail" href="#">
+        <img alt="" src="http://placehold.it/120x160">
+      </a>
+    </div>
+    <div class="span2">
+      <a class="thumbnail" href="#">
+        <img alt="" src="http://placehold.it/120x160">
+      </a>
+    </div>
+    <div class="span2">
+      <a class="thumbnail" href="#">
+        <img alt="" src="http://placehold.it/120x160">
+      </a>
+    </div>
+    <div class="span2">
+      <a class="thumbnail" href="#">
+        <img alt="" src="http://placehold.it/120x160">
+      </a>
+    </div>
+    <div class="span2">
+      <a class="thumbnail" href="#">
+        <img alt="" src="http://placehold.it/120x160">
+      </a>
+    </div>
 </div>
