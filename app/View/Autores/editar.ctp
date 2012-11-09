@@ -1,15 +1,22 @@
+<?php
+  echo $this->set('title_for_layout', 'Autor');
+?>
 <div class="container">
   <h1>Editando Autor</h1>
 
-  <?php
-    echo $this->Form->create('Autor', array('action' => 'add')),
-         $this->Form->input('autor', array('error' => 'Campo obrigatorio!'));
-  ?>
-  <div class="form-actions">
-    <?php
-     echo $this->Form->submit('Salvar', array('div' => false, 'class' => 'btn btn-primary', 'title' => 'Salvar')),
-          $this->Form->button('Limpar', array('type' => 'reset', 'class' => 'btn')),
-          $this->Form->end()
-    ?>
+  <form action="<?php echo $this->here; ?>" method="post">
+
+  <div class="control-group <?php echo isset($errors['autor']) ? 'error' : null ?>">
+    <label class="control-label" for="autor">Autor</label>
+    <div class="controls">
+      <input type="text" <?php echo isset($errors['autor']) ? 'id="inputError"' : null ?> name="autor" value="<?php echo isset($data['Autor']['autor']) ? $data['Autor']['autor'] : null ?>">
+    </div>
   </div>
+
+  <div class="control-group">
+    <div class="controls">
+      <button type="submit" class="btn">Salvar</button>
+    </div>
+  </div>
+  </form>
 </div>

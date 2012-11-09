@@ -25,7 +25,7 @@ class LivrosController extends AppController {
     if ( $this->request->isPost() ) {
 
       if( $this->Livro->save($this->data) ) {
-        $this->Session->setflash('Livro cadastrado com sucesso!');
+        $this->Session->setflash(__('Livro cadastrado com sucesso!'), 'Message/Success');
         $this->request->data = array();
       }
 
@@ -66,7 +66,7 @@ class LivrosController extends AppController {
   public function deletar ($id = null) {
     if ( $id && $this->request->isGet() ) {
       if ( $this->Livro->delete($id) ) {
-        $this->Session->setFlash('Livro deletado com sucesso');
+        $this->Session->setFlash(__('Livro deletado com sucesso'), 'Message/Success');
       }
       $this->redirect( array('action' => 'index') );
     }

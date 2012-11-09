@@ -1,5 +1,6 @@
 <div class="container">
   <h1>Generos</h1>
+  <?php echo $this->Session->flash(); ?>
   <p class="pull-right"><?php echo $this->Html->link('Adicionar novo genero', 'add', array('class' => 'btn btn-primary'))?></p>
   <table class="table table-condensed">
     <thead>

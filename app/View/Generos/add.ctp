@@ -1,18 +1,29 @@
+<?php
+  echo $this->set('title_for_layout', 'Autor');
+?>
 <div class="container">
-  <h1>Cadastrar Genero</h1>
+  <h1>Editando Autor</h1>
 
-  <?php
-    echo $this->Form->create('Genero',array('action' => 'add')),
-         $this->Form->input('genero', array('error' => 'Campo obrigatorio!')),
-         $this->Form->input('classificacao',
-          array('class' => 'input-mini', 'error' => 'Campo obrigatorio!')
-          );
-         ?>
-  <div class="form-actions">
-      <?php echo
-           $this->Form->submit('Salvar', array('div' => false, 'class' => 'btn btn-primary', 'title' => 'salvar')),
-           $this->Form->button('Limpar', array('type' => 'reset', 'class' => 'btn')),
-           $this->Form->end()
-    ?>
+  <form action="<?php echo $this->here; ?>" method="post">
+
+  <div class="control-group <?php echo isset($errors['genero']) ? 'error' : null ?>">
+    <label class="control-label" for="genero">Genero</label>
+    <div class="controls">
+      <input type="text" <?php echo isset($errors['genero']) ? 'id="inputError"' : null ?> name="genero" value="<?php echo isset($data['genero']) ? $data['genero'] : null ?>">
+    </div>
   </div>
+
+  <div class="control-group <?php echo isset($errors['classificacao']) ? 'error' : null ?>">
+    <label class="control-label" for="classificacao">Classificacao</label>
+    <div class="controls">
+      <input type="text" <?php echo isset($errors['classificacao']) ? 'id="inputError"' : null ?> name="classificacao" class="input-mini" value="<?php echo isset($data['classificacao']) ? $data['classificacao'] : null ?>">
+    </div>
+  </div>
+
+  <div class="control-group">
+    <div class="controls">
+      <button type="submit" class="btn">Salvar</button>
+    </div>
+  </div>
+  </form>
 </div>

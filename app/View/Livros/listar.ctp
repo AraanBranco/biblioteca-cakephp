@@ -1,5 +1,6 @@
 <div class="container">
   <h1>Livros</h1>
+  <?php echo $this->Session->flash(); ?>
   <p class="pull-right"><?php echo $this->Html->link('Adicionar novo livro', array('action' => 'add'), array('class' => 'btn btn-primary'))?></p>
   <table class="table table-condensed">
     <thead>
